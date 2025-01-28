@@ -1,0 +1,77 @@
+body {
+    background-color: #000
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+
+
+.sidebar__navegation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+
+
+.sidebar__navegation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+
+.sidebar ul li {
+    padding: 10px 0px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* Configuração do container principal */
+.sidebar__bible {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 0 16px; 
+    height: 40px;
+}
+
+/* Configuração do link */
+.sidebar__bible ul li a {
+     display: flex; /* Flexbox para alinhar os itens em linha */
+   
+}
+
+/* Estilo do ícone fa-book */
+.sidebar__bible ul li a .fa-book {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+/* Estilo do ícone fa-plus */
+.sidebar__bible ul li a .fa-plus {
+    margin-left: auto; /* Garante que o ícone seja empurrado para o lado direito */
+}
+
+
